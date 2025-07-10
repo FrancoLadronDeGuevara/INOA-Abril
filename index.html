@@ -1,19 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-
+      rel="stylesheet"/>
     <title>Clase Boostrap</title>
   </head>
   <body>
     <!-- COMIENZO DE NAVBAR -->
-    <nav class="navbar navbar-expand-md bg-body-tertiary">
+    <nav class="navbar sticky-top navbar-expand-md bg-body-tertiary">
       <div class="container-fluid">
         <button
           class="navbar-toggler"
@@ -22,8 +19,7 @@
           data-bs-target="#navbarTogglerDemo01"
           aria-controls="navbarTogglerDemo01"
           aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+          aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
@@ -60,15 +56,15 @@
               <a class="nav-link" href="#">Acerca de</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Conto</a>
+              <a class="nav-link" href="#">Contacto</a>
             </li>
           </ul>
-          <button class="btn btn-success">Registrarse</button>
-          <button class="btn btn-danger">Iniciar Sesión</button>
+          <button class="btn btn-danger"><a href="./pages/sesion/index.html" class="text-reset">Iniciar Sesión</a></button>
         </div>
       </div>
     </nav>
     <!-- FIN DE NAVBAR -->
+     <!--carrusel-->
     <div
       id="carouselExampleAutoplaying"
       class="carousel slide"
@@ -76,13 +72,13 @@
     >
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="..." class="d-block w-100" alt="..." />
+          <img src="./assets/primera.avif" class="d-block w-100" alt="..." />
         </div>
         <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="..." />
+          <img src="./assets/segunda.avif" class="d-block w-100" alt="..." />
         </div>
         <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="..." />
+          <img src="./assets/tercera.jpg" class="d-block w-100" alt="..." />
         </div>
       </div>
       <button
@@ -104,6 +100,116 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+    <!--fin del carrusel-->
+    <!--casillas-->
+    <div class="d-flex justify-content-center flex-wrap mt-2">
+      <div class="card text-center mb-3" style="width: 18rem;">
+        <img src="./assets/producto.jpg" class="card-img" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">Titulo Del Articulo</h5>
+        <p class="card-text">Descripcion del articulo, precio del producto, etc.</p>
+        <a href="./pages/articulos/index.html" class="btn btn-primary">Ir al Articulo</a>
+        </div>
+      </div>
+      <div class="card text-center mb-3" style="width: 18rem;">
+        <img src="./assets/producto.jpg" class="card-img" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">Titulo Del Articulo</h5>
+        <p class="card-text">Descripcion del articulo, precio del producto, etc.</p>
+        <a href="./pages/articulos/index.html" class="btn btn-primary">Ir al Articulo</a>
+        </div>
+      </div>
+      <div class="card text-center mb-3" style="width: 18rem;">
+        <img src="./assets/producto.jpg" class="card-img" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">Titulo Del Articulo</h5>
+        <p class="card-text">Descripcion del articulo, precio del producto, etc.</p>
+        <a href="./pages/articulos/index.html" class="btn btn-primary">Ir al Articulo</a>
+        </div>
+      </div>
+      <div class="card text-center mb-3" style="width: 18rem;">
+        <img src="./assets/producto.jpg" class="card-img" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">Titulo Del Articulo</h5>
+        <p class="card-text">Descripcion del articulo, precio del producto, etc.</p>
+        <a href="./pages/articulos/index.html" class="btn btn-primary">Ir al Articulo</a>
+        </div>
+      </div>
+      <div class="card text-center mb-3" style="width: 18rem;">
+        <img src="./assets/producto.jpg" class="card-img" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">Titulo Del Articulo</h5>
+        <p class="card-text">Descripcion del articulo, precio del producto, etc.</p>
+        <a href="./pages/articulos/index.html" class="btn btn-primary">Ir al Articulo</a>
+        </div>
+      </div>
+      <div class="card text-center mb-3" style="width: 18rem;">
+        <img src="./assets/producto.jpg" class="card-img" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">Titulo Del Articulo</h5>
+        <p class="card-text">Descripcion del articulo, precio del producto, etc.</p>
+        <a href="./pages/articulos/index.html" class="btn btn-primary">Ir al Articulo</a>
+        </div>
+      </div>
+      <div class="card text-center mb-3" style="width: 18rem;">
+        <img src="./assets/producto.jpg" class="card-img" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">Titulo Del Articulo</h5>
+        <p class="card-text">Descripcion del articulo, precio del producto, etc.</p>
+        <a href="./pages/articulos/index.html" class="btn btn-primary">Ir al Articulo</a>
+        </div>
+      </div>
+      <div class="card text-center mb-3" style="width: 18rem;">
+        <img src="./assets/producto.jpg" class="card-img" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">Titulo Del Articulo</h5>
+        <p class="card-text">Descripcion del articulo, precio del producto, etc.</p>
+        <a href="./pages/articulos/index.html" class="btn btn-primary">Ir al Articulo</a>
+        </div>
+      </div>
+      <div class="card text-center mb-3" style="width: 18rem;">
+        <img src="./assets/producto.jpg" class="card-img" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">Titulo Del Articulo</h5>
+        <p class="card-text">Descripcion del articulo, precio del producto, etc.</p>
+        <a href="./pages/articulos/index.html" class="btn btn-primary">Ir al Articulo</a>
+        </div>
+      </div>
+      <div class="card text-center mb-3" style="width: 18rem;">
+        <img src="./assets/producto.jpg" class="card-img" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">Titulo Del Articulo</h5>
+        <p class="card-text">Descripcion del articulo, precio del producto, etc.</p>
+        <a href="./pages/articulos/index.html" class="btn btn-primary">Ir al Articulo</a>
+        </div>
+      </div>
+    </div>
+    <!--fin de casillas-->
+    <!--inicio pie de pagina-->
+    <footer class="navbar navbar-dark bg-dark">
+      <div class="container-fluid justify-content-between d-flex flex-wrap py-2">
+        <div class="d-flex flex-column">
+          <a href="#" class="navbar-brand">Acerca de</a>
+          <a href="#" class="navbar-brand">Términos de uso</a>
+          <a href="#" class="navbar-brand">Derechos de autor</a>
+          <a href="#" class="navbar-brand">Contacto</a>
+        </div>
+        <div class="d-flex align-items-center">
+          <a href="#" aria-label="Facebook">
+            <img class="m-2" width="30" src="./assets/facebook.png" alt="Facebook">
+          </a>
+          <a href="#" aria-label="WhatsApp">
+            <img class="m-2" width="30" src="./assets/Whatsapp.png" alt="WhatsApp">
+          </a>
+          <a href="#" aria-label="Instagram">
+            <img class="m-2" width="30" src="./assets/instagram.png" alt="Instagram">
+          </a>
+          <a href="#" aria-label="Correo electrónico">
+            <img class="m-2" width="30" src="./assets/emailgmail.png" alt="Gmail">
+          </a>
+        </div>
+      </div>
+    </footer>
   </body>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
 </html>

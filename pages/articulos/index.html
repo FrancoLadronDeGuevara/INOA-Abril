@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"/>
+    <title>Clase Boostrap</title>
+  </head>
+  <body>
+    <!-- COMIENZO DE NAVBAR -->
+    <nav class="navbar sticky-top navbar-expand-md bg-body-tertiary">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="#"
+            ><img
+              class="d-none d-md-block"
+              width="50px"
+              src="../../assets/logo vea.svg"
+              alt="logo supermercado VEA"
+          /></a>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../../index.html"
+                >Productos</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Categorias
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Xiaomi</a></li>
+                <li><a class="dropdown-item" href="#">Samsung</a></li>
+                <li><a class="dropdown-item" href="#">Motorola</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Acerca de</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+          </ul>
+          <button class="btn btn-danger"><a href="../sesion/index.html" class="text-reset">Iniciar Sesión</a></button>
+        </div>
+      </div>
+    </nav>
+    <!--fin de navegacion-->
+    <!--principal-->
+    <div class=" m-3 d-md-flex">
+        <div id="carouselExampleIndicators" class="carousel slide w-50">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../../assets/producto.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../../assets/producto.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../../assets/producto.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+      <div class="d-flex-column align-content-center m-3">
+            <h1>Articulo</h1>
+            <p>Descripcion del articulo</p>
+            <h6>precio:$$$$</h6>
+      </div>
+    </div>
+    <div class="d-flex flex-column align-items-center">
+      <select class="col-form-select p-2 mt-5" style="width: 150px;" aria-label="Default select example">
+        <option selected>Cantidad: 1</option>
+        <option value="1">1 unidad</option>
+        <option value="2">2 unidades</option>
+        <option value="3">3 unidades</option>
+        <option value="1">4 unidades</option>
+        <option value="2">5 unidades</option>
+        <option value="3">6 unidades</option>
+      </select>
+      <div class="mt-5">
+        <button type="button" class="btn btn-primary" style="width: 150px;">Comprar ahora</button>
+      </div>
+      <div class="mt-5">
+        <button type="button" class="btn btn-secondary">Agregar al carrito</button>
+      </div>
+    </div>
+    <div class="m-3" style="border: 1px solid black;">
+      <h2 class="m-2">Características del producto:</h2>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Producto</th>
+            <th scope="col">Características</th>
+          </tr>
+        </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Tipo de resolución</td>
+          <td>full HD</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Tamaño de pantalla</td>
+          <td>15.6"</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Con pantalla táctil</td>
+          <td>no</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <!--fin de pricipal-->
+  <!--relacionados-->
+  <div  style="text-align: center;">
+    <h2>Productos relacionados</h2>
+  </div>
+  <div class="d-flex justify-content-center flex-wrap mt-2">
+      <div class="card text-center mb-3" style="width: 18rem;">
+        <img src="../../assets/producto.jpg" class="card-img" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">Titulo Del Articulo</h5>
+        <p class="card-text">Descripcion del articulo, precio del producto, etc.</p>
+        <a href="../articulos/index.html" class="btn btn-primary">Ir al Articulo</a>
+        </div>
+      </div>
+      <div class="card text-center mb-3" style="width: 18rem;">
+        <img src="../../assets/producto.jpg" class="card-img" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">Titulo Del Articulo</h5>
+        <p class="card-text">Descripcion del articulo, precio del producto, etc.</p>
+        <a href="../articulos/index.html" class="btn btn-primary">Ir al Articulo</a>
+        </div>
+      </div>
+      <div class="card text-center mb-3" style="width: 18rem;">
+        <img src="../../assets/producto.jpg" class="card-img" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">Titulo Del Articulo</h5>
+        <p class="card-text">Descripcion del articulo, precio del producto, etc.</p>
+        <a href="../articulos/index.html" class="btn btn-primary">Ir al Articulo</a>
+        </div>
+      </div>
+    </div>
+    <!--fin de relacionados-->
+    <!--pie de pagina-->
+    <footer class="navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <div class="d-flex flex-column">
+          <a href="" class="navbar-brand">Acerca de</a>
+          <a href="" class="navbar-brand">Termino de Uso</a>
+          <a href="" class="navbar-brand">Derecho de Autor</a>
+          <a href="" class="navbar-brand">Contacto</a>
+        </div>
+        <div class="d-flex">
+          <a href=""><img class="d-md-block m-2" width="30px" src="../../assets/facebook.png" alt=""></a>
+          <a href=""><img class="d-md-block m-2" width="30px" src="../../assets/Whatsapp.png" alt=""></a>
+          <a href=""><img class="d-md-block m-2" width="30px" src="../../assets/instagram.png" alt=""></a>
+           <a href=""><img class="d-md-block m-2" width="30px" src="../../assets/emailgmail.png" alt=""></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</html>
